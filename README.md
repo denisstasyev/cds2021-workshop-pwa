@@ -34,3 +34,17 @@ document.querySelector("meta[name=theme-color").content = "blue";
 ```html
 <meta name="theme-color" content="#bb7162" media="..." />
 ```
+
+6. Only one Service Worker for Scope in `chrome://serviceworker-internals/` possible
+7. After closing tab Service Worker still exists for 40s in Chrome
+8. Service Worker folder is important
+9. Get rid of HTTPS-only for ip:port (instead of localhost:port)
+
+```
+chrome:flags -> "Insecure origins treated as secure"  let's you additional sites where HTTP will work.
+```
+
+## Useful links
+
+1. `chrome://serviceworker-internals/`
+2. `chrome://inspect/#devices` for real Android device Port forwarding
