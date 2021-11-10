@@ -45,6 +45,8 @@ chrome:flags -> "Insecure origins treated as secure"  let's you additional sites
 ```
 
 10. Look at [Workbox](https://developers.google.com/web/tools/workbox)
+11. To publish into any App Stores use [PWABuilder](https://www.pwabuilder.com/). It'll wrap web-app into classic proprietary mobile or desktop app format. But remember about deeplinks (PWABuilder supports them)
+12. To emulate different devices use Xcode (for iOS), Android Studio or [Vysor](https://www.vysor.io/) (for Android)
 
 ## Useful links
 
