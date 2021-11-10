@@ -44,6 +44,8 @@ document.querySelector("meta[name=theme-color").content = "blue";
 chrome:flags -> "Insecure origins treated as secure"  let's you additional sites where HTTP will work.
 ```
 
+10. Look at [Workbox](https://developers.google.com/web/tools/workbox)
+
 ## Useful links
 
 1. `chrome://serviceworker-internals/`
